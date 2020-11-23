@@ -17,6 +17,10 @@ fr2 = FundingRound.new(google, bloomberg, "Seed", 1000.00)
 fr3 = FundingRound.new(netflix, musk, "Pre-Seed", 500.00)
 
 
+fr1 = FundingRound.new(facebook, trump, 200.00, "Angel")
+fr2 = FundingRound.new(google, bloomberg, 500.00, "Seed")
+fr3 = FundingRound.new(netflix, musk, 1000.00, "Series A")
+
 
 
 binding.pry
