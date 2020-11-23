@@ -12,6 +12,10 @@ trump = VentureCapitalist.new("Donald Trump", 500)
 bloomberg = VentureCapitalist.new("Michael Bloomberg", 2000000000)
 musk = VentureCapitalist.new("Elon Musk", 5000000000)
 
+fr1 = FundingRound.new(facebook, trump, 200.00, "Angel")
+fr2 = FundingRound.new(google, bloomberg, 500.00, "Seed")
+fr3 = FundingRound.new(netflix, musk, 1000.00, "Series A")
+
 
 
 binding.pry
